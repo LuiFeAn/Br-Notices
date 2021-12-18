@@ -9,7 +9,7 @@ const API = {
             let json = req.data;
             return json;
         }catch(err){
-            alert("Error");
+            alert(err);
         }
     }
 }

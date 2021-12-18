@@ -5,6 +5,8 @@ export const NoticeContainer = styled.div`
     padding:20px;
     display:flex;
     width:700px;
+    box-shadow: 0px 2px 0px black;
+    border-radius:5px;
 
     .text-container{
         flex-direction:column;
@@ -19,7 +21,7 @@ export const NoticeContainer = styled.div`
     }
 `;
 export const NoticeImg = styled.img`
-    width:250px;
+    width:370px;
     height:250px;
     border-radius:5px;
 `;

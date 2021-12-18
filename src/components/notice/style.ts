@@ -1,9 +1,32 @@
 import styled from 'styled-components';
 
 export const NoticeContainer = styled.div`
-    
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+`;
+export const NoticeTitle = styled.h1`
+    color:red;
+    font-size:40px;
+    @media(max-width:780px){
+        font-size:35px;
+    }
 `;
 export const NoticeImg = styled.img`
-    width:300px;
-    height:300px;
+    width:700px;
+    height:400px;
+    border-radius:5px;
+
+    @media(max-width:780px){
+        width:250px;
+        height:250px;
+    }
+`;
+export const NoticeContent = styled.p`
+    inline-size:750px;
+
+    @media(max-width:780px){
+        inline-size:auto;
+    }
 `;
