@@ -9,8 +9,10 @@ export const NoticeContainer = styled.div`
 export const NoticeTitle = styled.h1`
     color:red;
     font-size:40px;
+    inline-size:750px;
     @media(max-width:780px){
         font-size:35px;
+        inline-size:auto;
     }
 `;
 export const NoticeImg = styled.img`
@@ -19,7 +21,7 @@ export const NoticeImg = styled.img`
     border-radius:5px;
 
     @media(max-width:780px){
-        width:250px;
+        width:380px;
         height:250px;
     }
 `;
